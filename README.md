@@ -33,7 +33,7 @@ cd chatgpt-cli
 ### Install required modules
 
 ```bash
-pip install -r .\requirements.txt
+pip install -r requirements.txt
 ```
 
 <br>
@@ -87,7 +87,7 @@ cd chatgpt-cli
 ### Gerekli modüllerini kurulumu
 
 ```bash
-pip install -r .\requirements.txt
+pip install -r requirements.txt
 ```
 
 ## OpenAI'dan API KEY almak için aşağıdaki adımları takip edebilirsiniz.
