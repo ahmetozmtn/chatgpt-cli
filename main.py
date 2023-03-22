@@ -8,7 +8,7 @@ def main():
     chat_log = []
 
     while True:
-        user_msg = input(">>> ")
+        user_msg = input("[exit: quit/CTRL+C] | >>> ")
         if user_msg.lower() == "quit":
             logOut("Quit...")
         else:
