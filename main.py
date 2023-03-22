@@ -20,6 +20,11 @@ def main():
             result_dict = json.loads(result)
             assistant_response = result_dict["choices"][0]["message"]["content"]
             print("ChatGPT:", assistant_response.strip("\n").strip())
+            print("*"*60)
+            prompt_tokens = result_dict["usage"]["prompt_tokens"]
+            completion_tokens = result_dict["usage"]["completion_tokens"]
+            total_tokens = result_dict["usage"]["total_tokens"]
+            print(f"Prompt Token: {prompt_tokens} | Completion Tokens: {completion_tokens} | Total Tokens: {total_tokens}")
             chat_log.append(
                 {
                     "role": "assistant", 
