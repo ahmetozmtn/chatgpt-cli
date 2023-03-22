@@ -2,7 +2,7 @@ import os, json, openai
 from dotenv import load_dotenv
 
 def main():
-    load_dotenv()
+    load_dotenv(".env.example")
     openai.api_key = os.getenv("OPENAI_API_KEY")
     model = "gpt-3.5-turbo"
     chat_log = []
