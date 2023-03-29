@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 <br>
 
-4- Paste the API KEY from **OpenAI** to the relevant section of the .env.example file in the project folder and save the file. And now you are ready to use ChatGPT-CLI.
+4- Enter the API KEY you got from **OpenAI** into the project folder, rename the .env.example file to .env and paste it into the relevant section in the file and save the file. And now you are ready to use the ChatGPT CLI.
 
 
 <br></br>
@@ -109,4 +109,4 @@ pip install -r requirements.txt
 
 <br>
 
-4-  **OpenAI**'dan aldığınız API KEY'i proje klasöründe ki .env.example dosyasındaki ilgili bölüme yapıştırın ve dosyayı kayıt edin. Ve artık ChatGPT CLI'i kullanmaya hazırsınız.
+4-  **OpenAI**'dan aldığınız API KEY'i proje klasörüne girin .env.example dosyasını adını .env olarak değiştirin ve dosyadaki ilgili bölüme yapıştırın ve dosyayı kayıt edin. Ve artık ChatGPT CLI'i kullanmaya hazırsınız.
